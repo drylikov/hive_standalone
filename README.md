@@ -9,9 +9,9 @@ I also provided a very small amount of data from the dvdstore (ref: https://gith
 In one terminal start your docker container (you'll end up with a shell inside it):
 ```
 $> cd docker
-$docker> docker build -t drylikov/hive-standalone .
+$docker> docker build -t drylikov/hive_standalone .
 ...
-$docker> docker run -it -p10000:10000 -p8088:8088 drylikov/hive-standalone
+$docker> docker run -it -p10000:10000 -p8088:8088 drylikov/hive_standalone
 ... (this is going to take a while) ...
 ========= WELCOME TO YOUR HIVE/HADOOP ENV ===
  Try one of the following commands!
